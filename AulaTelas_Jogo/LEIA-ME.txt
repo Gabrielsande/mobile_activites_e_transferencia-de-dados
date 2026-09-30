@@ -1,0 +1,14 @@
+JOGO DE ADIVINHACAO - AulaTelas
+
+Copie cada arquivo para a mesma pasta no seu projeto (substitua quando ja existir):
+
+app/src/main/AndroidManifest.xml
+app/src/main/java/com/example/aulatelas/MainActivity.kt
+app/src/main/java/com/example/aulatelas/JogoActivity.kt
+app/src/main/res/layout/activity_main.xml
+app/src/main/res/layout/activity_jogo.xml
+
+Depois: Build > Rebuild Project e rode o app.
+
+Erro de AAR metadata (androidx.core 1.19.0): no libs.versions.toml troque
+coreKtx = "1.17.0" e clique em Sync Now.
